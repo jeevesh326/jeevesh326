@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Andarson</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="#"><i class="ri-mail-fill"></i></a>
+        <a href="#"><i class="ri-github-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">MY PORTFOLIO<span>.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#service">Skills</a></li>
+            <li class="link"><a href="#client">Qualifications</a></li>
+            <li class="link"><a href="#blog">Blog</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Advancing UAV and Embedded Systems</h4>
+          <h1>Hi, I Am Singh Jeevesh and this is my Portfolio</h1>
+          <p>
+            I'm a dedicated Embedded system Engineer with a creative flair and a penchant
+            for turning lines of Ideas into captivating Projects experiences. My
+            journey in the digital realm Begins, and I've since honed
+            my skills in Embedded system and Robotics.
+          </p>
+          <button class="btn">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi, I Am Singh Jeevesh</h2>
+        <p>
+          I'm a dedicated Embedded system Engineer with a creative flair and a penchant
+          for turning lines of Ideas into captivating Projects experiences. My
+          journey in the digital realm Begins, and I've since honed
+          my skills in Embedded system and Robotics.
+        </p>
+        <h4>
+          With a focus on user experience and a commitment to staying updated
+          with the latest industry trends, I'm dedicated to creating UAV and Robotics
+          solutions that not only meet but exceed expectations.
+        </h4>
+        <div class="about__btns">
+          <a href="assets/RESUME.pdf" download class="download__btn">
+            Download CV
+          </a>
+          <a href="#"><i class="ri-mail-fill"></i></a>
+          <a href="#"><i class="ri-github-fill"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-pen-nib-line"></i></span>
+        <div>
+          <h4>PCB Design</h4>
+          <p>
+            "Passionate about designing efficient and reliable PCB layouts, 
+            with a strong understanding of circuit design, signal integrity, and power distribution. 
+           
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-layout-masonry-line"></i></span>
+        <div>
+          <h4>UAV Development</h4>
+          <p>
+            Focused on cutting-edge UAV technology, ensuring innovative, efficient, and high-performance aerial systems.
+          </p>
+          
+       </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-checkbox-line"></i></span>
+        <div>
+          <h4>Troubleshooting & Simulation</h4>
+<p>
+  Skilled in diagnosing circuit issues using DSO and verifying designs 
+  through simulations to ensure optimal performance and reliability.
+</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">Our Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".ROBOTICS">ROBOTICS</button>
+          <button class="btn project__btn" data-filter=".EMBEDDED">EMBEDDED SYSTEM</button>
+          <button class="btn project__btn" data-filter=".PCB design">
+            PCB DESIGN
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix web">
+          <img src="assets/project-1.jpg" alt="project" />
+          <p>
+              VTOL USING MATEKSYS
+           <p>
+        </div>
+        <div class="project__card mix game">
+          <img src="assets/project-2.jpg" alt="project" />
+          <p>
+            FLIGHT CONTROLLER USING STM32
+         <p>
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project-3.jpg" alt="project" />
+          <p>
+            LINE FOLLOWER ROBOT USING ARDUINO
+         <p>
+        </div>
+        <div class="project__card mix web">
+          <img src="assets/project-4.jpg" alt="project" />
+          <p>
+            MINI ROBOTIC ARM USING ARDUINO
+         <p>
+        </div>
+    
+        <div class="project__card mix game">
+          <img src="assets/project-5.jpg" alt="project" />
+          <p>
+        6 CHANNEL RECIEVER
+         <p>
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project-6.jpg" alt="project" />
+          <p>
+            FPV DRONE
+             <p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">Our Services</p>
+      <h2 class="section__header">What We Do?</h2>
+      <p class="section__description">
+        We specialize in a wide range of UAV and Embedded Systems 
+        services designed to transform your vision into reality.
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-flight-takeoff-line"></i></span>
+          <h4>UAV & Drone Development</h4>
+          <p>
+            I design and build cutting-edge UAVs, FPV drones, and VTOL systems for both commercial and defense applications.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-cpu-line"></i></span>
+          <h4>Embedded Systems</h4>
+          <p>
+            Expertise in designing microcontroller-based embedded solutions with sensors, actuators, and wireless interfaces.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-sensor-line"></i></span>
+          <h4>Autonomous Navigation</h4>
+          <p>
+            Implementation of AI and SLAM-based obstacle avoidance and Return-To-Home systems for GPS-denied environments.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-layout-grid-line"></i></span>
+          <h4>PCB Design</h4>
+          <p>
+            Custom PCB design and prototyping for flight controllers, sensor modules, and embedded applications.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-tools-line"></i></span>
+          <h4>Drone Repair & Customization</h4>
+          <p>
+            Diagnosis, repair, and modification of drone hardware including ESCs, motors, and frame upgrades.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-brain-line"></i></span>
+          <h4>AI-Powered Systems</h4>
+          <p>
+            Integrating AI models such as YOLO and reinforcement learning for advanced drone behavior and real-time decision making.
+          </p>
+        </div>
+      </div>
+      
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <p class="section__subheader">.</p>
+      <h2 class="section__header">QUALIICATIONS</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="qualification" />
+              <div>
+                <p>
+                  Pursuing B.E. in Electronics & Communication Engineering from LD College of Engineering, Ahmedabad.
+                  Focused on UAV systems, VTOL drones, embedded design, and real-world mechatronics integration.
+                </p>
+                <h4>LD College of Engineering <span>(B.E. - ECE)</span></h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="qualification" />
+              <div>
+                <p>
+                  Completed Diploma in Electronics & Communication Engineering from Dr. BBA Government Polytechnic, Karad. 
+                  Gained strong foundations in circuit design, microcontrollers, and PCB development.
+                </p>
+                <h4>Dr. BBA Polytechnic, Karad <span>(Diploma - ECE)</span></h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpg" alt="qualification" />
+              <div>
+                <p>
+                  Completed 10th grade from PSA School under Gujarat State Education Board (GSEB) with a focus on science and technology subjects. 
+                  Built early interest in robotics and embedded systems here.
+                </p>
+                <h4>PSA School <span>(GSEB - 10th)</span></h4>
+              </div>
+            </div>
+          </div>
+          
+              </div>
+            </div>
+          </div>
+          
+                  </div>
+                </div>
+                
+    </section>
+    <section class="section__container blog__container" id="blog">
+      <p class="section__subheader">Blog Posts</p>
+      <h2 class="section__header">I Love To Write About Drones & Embedded Tech</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/blog-1.jpg" alt="blog" />
+          <p>Project Insights</p>
+          <h4>How I Engineered an FPV Underwater ROV for Robo Fest</h4>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-2.jpg" alt="blog" />
+          <p>How-To Guide</p>
+          <h4>Step-by-Step: Designing a Custom PCB for UAV Flight Controllers</h4>
+          <a href="#">Read More</a>
+        </div>
+        <div class="blog__card">
+          <img src="assets/blog-3.jpg" alt="blog" />
+          <p>Tech Trends</p>
+          <h4>Why VTOL Drones Are the Future of Logistics and Defense</h4>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Us</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Description" />
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Singh Jeevesh</a></h5>
+          <p>
+            dedicated Embedded system Engineer with a creative flair and a penchant
+            for turning lines of Ideas into captivating Projects experiences
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-mail-fill"></i></a>
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-dribbble-line"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <a href="#">DRONE DEVELOPMENT</a>
+            <a href="#">PCB DESIGNING</a>
+            <a href="#">Photography</a>
+            <a href="#">Videography</a>
+            <a href="#">EMBEDDEDD SYSTEM ENGINEERING</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <div class="footer__links">
+            <a href="#">Contact</a>
+            <a href="#">My Blog</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
